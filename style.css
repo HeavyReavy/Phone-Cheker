@@ -1,0 +1,78 @@
+html {
+    font-family: 'Golos Text', sans-serif;
+    font-size: 14px;
+    color: #1B1918;
+}
+
+input {
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: #1B1918;
+}
+
+input[type="button"] {
+    font-weight: 500;
+    font-size: 16px;
+    width: 200px;
+    height: 48px;
+    background-color: #EA1919;
+    color: #F8F8F8;
+}
+
+input[type="text"] {
+    background-color: #F1F2F2;
+    width: 345px;
+    height: 48px;
+    padding-left: 24px;
+}
+
+.header__form {
+    display: flex;
+    gap: 20px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right__wrapper {
+    display: flex;
+    gap: 156px;
+    align-items: center;
+}
+
+.header {
+    max-height: 50px;
+}
+
+.logo {
+    display: inline-block;
+    width: 162px;
+    height: 49px;
+    background-image: url(img/logo.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+}
+
+.menu-items {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #1B1918;
+    font-size: 14px;
+    font-weight: 400;
+}
