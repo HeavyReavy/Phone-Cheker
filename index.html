@@ -16,8 +16,8 @@
             <a href="#!" class="logo"></a>
             <div class="header-right__wrapper">
                 <form name="find-number" action="#!" class="header__form">
-                    <input type="text" id="phone" maxlength="14" placeholder="Введите номер телефона" required />
-                    <input type="button" value="Найти номер">
+                    <input class="header__form-text" type="text" maxlength="14" placeholder="Введите номер телефона" required>
+                    <input class="header__form-btn" type="button" value="Найти номер">
                 </form>
                 <nav class="menu">
                     <ul class="menu-items">
@@ -29,7 +29,44 @@
             </div>
         </div>
     </header>
-    <main class="main"></main>
+    <main class="main">
+        <section class="bunner container">
+                <h1 class="bunner__title">Кто звонил?</h1>
+                <p class="bunner__description">База телефонных номеров России. Отзывы о номерах, о тех, кто звонил с этого номера. Поиск по регионам и организациям</p>
+                <form action="#!" class="bunner__form">
+                    <input class="bunner__form-text" type="text" maxlength="14" placeholder="Введите номер телефона" required>
+                    <input class="bunner__form-btn" type="button" value="Найти номер">
+                </form>
+        </section>
+        <article class="infographics container">
+            <h2 class="infographics__title">Всего в базе</h2>
+            <div class="infographics__wrapper">
+                <div class="infographics-block">
+                    <h3 class="infographics-block__number">711 455 803</h3>
+                    <div class="infographics-block__wrapper">
+                        <span class="infographics-block__title">телефона</span>
+                        <img src="img/arrow.svg" width="24" height="24" alt="arrow" class="infographics-block__img">
+                    </div>
+                </div>
+                <div class="infographics-block">
+                    <h3 class="infographics-block__number">711 455 803</h3>
+                    <div class="infographics-block__wrapper">
+                        <span class="infographics-block__title">телефона</span>
+                        <img src="img/arrow.svg" width="24" height="24" alt="arrow" class="infographics-block__img">
+                    </div>
+                </div>
+            </div>
+        </article>
+        <section class="comments container">
+            <h2 class="comments__title">Последние комментарии</h2>
+            <div class="comment">
+                <div class="comment__header">
+                    <span class="comment__number"></span>
+                    
+                </div>
+            </div>
+        </section>  
+    </main>
     <footer class="footer"></footer>
 </body>
 </html>
